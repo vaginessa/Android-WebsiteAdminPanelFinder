@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnSubmit"
         tools:textColor="@color/colorAccent"
-        android:background="@android:color/background_light"
+        android:background="@android:color/colorPrimaryDark"
         android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
         android:elevation="11dp"
         android:layout_marginTop="44dp"
@@ -27,7 +27,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textColor="@android:color/background_dark" />
+        android:textColor="@android:color/colorAccent" />
 
     <RadioGroup
         android:id="@+id/radioFile"
