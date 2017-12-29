@@ -42,35 +42,35 @@
             android:id="@+id/radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="php"
+            android:text=".php"
             android:checked="true" />
 
         <RadioButton
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="asp" />
+            android:text=".asp" />
 
         <RadioButton
             android:id="@+id/radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="js" />
+            android:text=".js" />
         <RadioButton
             android:id="@+id/radio3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="cgi" />
+            android:text=".cgi" />
         <RadioButton
             android:id="@+id/radio4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="cfm" />
+            android:text=".cfm" />
         <RadioButton
             android:id="@+id/radio5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="brf" />
+            android:text=".brf" />
     </RadioGroup>
 
     <EditText
@@ -81,7 +81,7 @@
         android:layout_marginTop="65dp"
         android:id="@+id/etUrl"
         android:height="@android:dimen/thumbnail_width"
-        android:hint="Enter URL of the Target"
+        android:hint="Target URL ...http(s)://example.com"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
